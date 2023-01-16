@@ -15,7 +15,7 @@ public class Core {
             temp = temp.getNext();
         }*/
 
-        LinkedList list = new LinkedList();
+        /*LinkedList list = new LinkedList();
         list.init(7);
         list.insert(6);
         list.insert(8);
@@ -25,6 +25,12 @@ public class Core {
             public void run() {
                 System.out.println(this.getValue());
             }
-        });
+        });*/
+
+        Node.TreeNode node = new Node.TreeNode(5);
+        node.insert(6);
+        node.insert(7);
+        node.insert(1);
+        node.transverse(node.getRoot());
     }
 }

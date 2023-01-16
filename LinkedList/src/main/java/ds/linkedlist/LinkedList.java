@@ -3,7 +3,7 @@ import ds.node.*;
 import java.lang.Runnable;
 
 import java.util.concurrent.Callable;
-
+import java.util.function.Function;
 
 
 public class LinkedList {
