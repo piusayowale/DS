@@ -1,6 +1,18 @@
 package ds.node;
 
 public class Node {
+
+    public static class TreeNode{
+        TreeNode leftNode;
+        TreeNode rightNode;
+
+        public TreeNode(){
+            leftNode = null;
+            rightNode = null;
+        }
+    }
+
+
     private Node next;
     int value;
     public Node(int val){
